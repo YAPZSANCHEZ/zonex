@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZONEX | We build ideas into digital reality</title>
+  <meta name="description" content="ZONEX is a creative studio building branding, websites, and digital products.">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">Z</span>
+        <span class="logo-text">ZONEX</span>
+      </a>
+      <nav class="nav">
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="about.html" class="nav-link ">About</a></li>
+          <li><a href="product.html" class="nav-link ">Products</a></li>
+          <li><a href="contact.html" class="nav-link ">Contact</a></li>
+          <li id="loginNav"><a href="login.html" class="nav-link">Login</a></li>
+          <li id="registerNav"><a href="register.html" class="nav-link btn-nav">Register</a></li>
+          <li id="userNav" style="display:none;">
+          <a href="#" class="nav-link">
+          <i class="fas fa-user"></i>
+          <span id="navEmail"></span>
+          </a>
+          </li>
+
+          <li id="logoutNav" style="display:none;">
+  <a href="logout.php" class="nav-link">Logout</a>
+</li>
+
+        </ul>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <main>
+
+    <section class="hero reveal">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <p class="hero-tag"><i class="fas fa-bolt"></i> Digital Creative Studio</p>
+          <h1>We build ideas into <span class="accent">digital reality</span>.</h1>
+          <p class="hero-subtext">
+            ZONEX helps brands and startups launch clean, modern websites and products
+            that feel fast, intuitive, and on-brand.
+          </p>
+          <div class="hero-actions">
+            <a href="product.html" class="btn-primary">
+              View Services <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="contact.html" class="btn-outline">
+              Start a project
+            </a>
+          </div>
+          <div class="hero-tags">
+            <span><i class="fas fa-check-circle"></i> Web Development</span>
+            <span><i class="fas fa-check-circle"></i> UI/UX Design</span>
+            <span><i class="fas fa-check-circle"></i> Digital Marketing</span>
+          </div>
+        </div>
+        <div class="hero-media">
+          <div class="hero-image-card">
+            <img src="./assets/images/fullopacity.png" alt="ZONEX digital illustration">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-stats reveal">
+      <div class="container stats-container">
+        <div class="stat-card">
+          <span class="stat-number counter" data-target="120">0</span>
+          <p>Projects Delivered</p>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number counter" data-target="45">0</span>
+          <p>Happy Clients</p>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number counter" data-target="6">0</span>
+          <p>Years of Experience</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container split">
+        <div class="section-text">
+          <h2>Why brands choose ZONEX</h2>
+          <p>
+            We are a creative team delivering websites, branding, and digital solutions.
+            From idea to launch, we design and develop products that are reliable,
+            scalable, and genuinely delightful to use.
+          </p>
+          <ul class="check-list">
+            <li><i class="fas fa-circle-check"></i> Clean, modern visual design</li>
+            <li><i class="fas fa-circle-check"></i> Responsive layouts for every device</li>
+            <li><i class="fas fa-circle-check"></i> Focus on usability and performance</li>
+          </ul>
+          <a href="about.html" class="text-link">Learn more about us <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="section-media">
+          <img src="./assets/images/zonexlogo.png" alt="About ZONEX" class="shadow-card">
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt reveal">
+      <div class="container">
+        <header class="section-header">
+          <h2>Services at a glance</h2>
+          <p>A curated set of services to launch or grow your digital presence.</p>
+        </header>
+        <div class="grid product-grid">
+          <article class="card product-card">
+            <span class="product-icon"><i class="fas fa-code"></i></span>
+            <h3>Web Development</h3>
+            <p>High-performance websites with clean, maintainable code and SEO-ready structure.</p>
+          </article>
+          <article class="card product-card">
+            <span class="product-icon"><i class="fas fa-pencil-ruler"></i></span>
+            <h3>UI/UX Designing</h3>
+            <p>Interfaces and design systems that balance aesthetics, accessibility, and clarity.</p>
+          </article>
+          <article class="card product-card">
+            <span class="product-icon"><i class="fas fa-bullhorn"></i></span>
+            <h3>Digital Marketing</h3>
+            <p>Campaigns and funnels to help your brand reach the right audience.</p>
+          </article>
+          <article class="card product-card">
+            <span class="product-icon"><i class="fas fa-mobile-screen-button"></i></span>
+            <h3>Mobile App Development</h3>
+            <p>Responsive mobile experiences that keep your brand in your users' pocket.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-cta reveal">
+      <div class="container cta-container">
+        <div>
+          <h2>Have a project in mind?</h2>
+          <p>Share your idea with us and we’ll help you turn it into a digital reality.</p>
+        </div>
+        <a href="contact.html" class="btn-primary">
+          Contact us <i class="fas fa-paper-plane"></i>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-column">
+        <h3>ZONEX</h3>
+        <p>We build ideas into digital reality.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="product.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Contact</h4>
+        <p><i class="fas fa-envelope"></i> zonex.tech3934gmail.com</p>
+        <p><i class="fas fa-phone"></i> 9843602334&nbsp;,9342326739</p>
+        <p><i class="fas fa-location-dot"></i> Chennai, India</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> ZONEX. All rights reserved.</p>
+    </div>
+  </footer>
+  <script>
+document.addEventListener("DOMContentLoaded", function () {
+  const user = JSON.parse(localStorage.getItem("loggedInUser"));
+
+  if (user && (user.fullname || user.username || user.email)) {
+    // Hide login/register
+    document.getElementById("loginNav").style.display = "none";
+    document.getElementById("registerNav").style.display = "none";
+
+    // Show user + logout
+    document.getElementById("userNav").style.display = "block";
+    document.getElementById("logoutNav").style.display = "block";
+
+    // Prefer username, fall back to email
+    document.getElementById("navEmail").textContent = user.fullname || user.username || user.email;
+  }
+});
+</script>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
